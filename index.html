@@ -2,78 +2,90 @@
 <html lang="pt-BR">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- <link rel="stylesheet" href="style.css">
- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 
- <title>LP-Arquitetura</title>
+  <title>LP-Arquitetura</title>
 </head>
 
 <body>
- <main>
-  <section class="section1-banner">
-   <div class="section-margin">
+  <!--Deixei a parte onde entrará a logo da empresa e a navegação pronta caso queira adicionar outras páginas futuramente -->  
+  <header style="display: none; justify-content: center; background-color: #303030;">
+    <a href="https://www.escoladnc.com.br/"><img src="./assets/logo.svg" alt="logo"></a>
+  </header>
+  <main>
+    <!-- Primeira seção com título de apresentação-->
+    <section class="section1-banner">
+      <div class="section-margin">
 
-    <h1 class="title-section1">Tradição em projetos de arquitetura</h1>
-    <p class="paragraph subtitle-section1">Arquitetura residencial e comercial. </p>
-   </div>
-  </section>
-  <section class="section2-advantages">
-   <div class="section-margin">
+        <h1 class="title-section1">Tradição em projetos de arquitetura</h1>
+        <p class="paragraph subtitle-section1">Arquitetura residencial e comercial. </p>
+      </div>
+    </section>
+    <!--Segunda seção com as informações adicionais da empresa-->
+    <section class="section2-advantages">
+      <div class="section-margin">
 
 
-    <div class="advantages-grid">
-     <div class="advntage-column">
-      <p class="subtitle">850</p>
-      <p class="paragraph">empreendimentos construídos</p>
-     </div>
+        <div class="advantages-grid">
+          <div class="advntage-column">
+            <p class="subtitle">850</p>
+            <p class="paragraph">empreendimentos construídos</p>
+          </div>
 
-     <div class="advntage-column">
-      <p class="subtitle">40</p>
-      <p class="paragraph">anos de mercado e experiência </p>
-     </div>
-     <div class="advntage-column">
-      <p class="subtitle">2,000,000
-      </p>
-      <p class="paragraph">m² em projetos construídos</p>
-     </div>
-    </div>
+          <div class="advntage-column">
+            <p class="subtitle">40</p>
+            <p class="paragraph">anos de mercado e experiência </p>
+          </div>
+          <div class="advntage-column">
+            <p class="subtitle">2,000,000
+            </p>
+            <p class="paragraph">m² em projetos construídos</p>
+          </div>
+        </div>
 
-   </div>
-  </section>
-  <section class="section3-presentation">
-   <div class="section-margin">
-    <div class="presentation-grid">
-     <div class="presentation-text">
-      <h2 class="subtitle presentation-subtitle">Arquitetos com História e Experiência.</h2>
-      <p class="presentation-paragraph">
-       Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>Com mais de 800 projetos e 2.000.000 de m² construídos, tendo como principal proposta transformar em realidade os sonhos de seus clientes, criando projetos personalizados, unindo a tradição e a modernidade em nossos projetos.</p>
-     </div>
-     <div class="presentation-img">
-      <img src="./assets/banner1-mainpg.svg" alt="presentation-banner" class="presentation-banner">
-     </div>
-    </div>
-   </div>
-  </section>
-  <section class="section4-contactform">
-   <div class="section-margin">
-    <div class="contact-grid">
-     <h2 class="contact-subtitle">Conheça mais sobre nossos serviços:</h2>
-     <form action="https://api.sheetmonkey.io/form/vsYeYsRejY7XRvSUD1CuAT" method="post" class="contact-form">
-      <input type="text" placeholder="Nome" name="Name" required>
-      <input type="email" placeholder="E-mail" nome="Email" required>
-      <button type="submit">Fale Conosco</button>
-     </form>
-    </div>
-   </div>
-  </section>
- </main>
+      </div>
+    </section>
+    <!--Terceira seção com a apresentação da empresa-->
+    <section class="section3-presentation">
+      <div class="section-margin">
+        <div class="presentation-grid">
+          <div class="presentation-text">
+            <h2 class="subtitle presentation-subtitle">Arquitetos com História e Experiência.</h2>
+            <p class="presentation-paragraph">
+              Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>Com mais de 800 projetos e 2.000.000 de m² construídos, tendo como principal proposta transformar em realidade os sonhos de seus clientes, criando projetos personalizados, unindo a tradição e a modernidade em nossos projetos.</p>
+          </div>
+          <div class="presentation-img">
+            <img src="./assets/banner1-mainpg.svg" alt="presentation-banner" class="presentation-banner">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Quarta seção com formulário-->
+    <section class="section4-contactform">
+      <div class="section-margin">
+        <div class="contact-grid">
+          <h2 class="contact-subtitle">Conheça mais sobre nossos serviços:</h2>
+          <form action="https://api.sheetmonkey.io/form/vsYeYsRejY7XRvSUD1CuAT" method="post" class="contact-form">
+            <input type="text" placeholder="Nome" name="Name" required>
+            <input type="email" placeholder="E-mail" nome="Email" required>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Fale Conosco</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer style="background-color: #303030;">
+    <p style="color: #fff; ">&copy; Desenvolvido por xTirian</p>
+  </footer>
 </body>
 
 </html>

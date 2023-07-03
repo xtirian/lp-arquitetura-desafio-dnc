@@ -10,7 +10,7 @@ body {
 }
 .section-margin {
   max-width: 1280px;
-  margin-left: 62px;
+  margin: 0 auto;
 }
 .paragraph {
   font-size: 20px;
