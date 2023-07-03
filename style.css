@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+.section-margin {
+  max-width: 1280px;
+  margin-left: 62px;
+}
+.paragraph {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+.subtitle {
+  font-size: 40px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+/*/SECTION 1/*/
+.section1-banner {
+  background-color: #303030;
+  min-height: 704px;
+
+  display: flex;
+  align-items: center;
+}
+.title-section1 {
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -2.5%;
+
+  color: #fff;
+}
+.subtitle-section1 {
+  color: #fff;
+  margin-top: 20px;
+}
+
+/*/SECTION 2/*/
+.section2-advantages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f9f9f9;
+}
+.advantages-grid {
+  display: grid;
+  grid-auto-flow: column;
+}
+.advntage-column {
+  padding: 70px;
+}
+.advntage-column:hover{
+ background-color: #d89747;
+}
+
+/*/SECTION 3/*/
+.presentation-grid {
+  display: flex;
+  align-items: center;
+}
+.presentation-paragraph {
+  font-size: 24px;
+  line-height: 28px;
+
+  margin-top: 40px;
+}
+.presentation-subtitle {
+  font-weight: 500;
+}
+.presentation-img{
+ margin: 77px 0 77px 2.5%; 
+ border-radius: 30px;
+}
+.presentation-img:hover{
+ transform: translate(-10px, -15px);
+ transition-duration: 0.75s;
+}
+
+/*/ SECTION 4/*/
+.section4-contactform {
+  background-color: #303030;
+}
+.contact-grid {
+  padding: 80px;
+}
+.contact-subtitle {
+ font-size: 32px;
+ line-height: 48px;
+ text-align: center;
+
+ color: #fff;
+}
+.contact-form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  
+ margin: 40px auto;
+ gap: 40px;
+}
+.contact-form input{
+ font-size: 24px;
+
+ height: 72px;
+ width: 508px; 
+ padding-left: 20px;
+
+ border-width: 0;
+ border-radius: 10px;
+}
+.contact-form input:focus{
+ border: 0;
+ transform: scale(1.05);
+ transition-duration: 0.5s;
+}
+.contact-form button {
+ width: 286px;
+ height: 74px;
+
+ border-width: 0;
+ border-radius: 10px;
+ background-color: #c07212;
+
+ font-family: 'Raleway', sans-serif;
+ font-size: 30px;
+ line-height: 30px;
+ font-weight: bold;
+ color: #fff;
+}
+.contact-form button:hover {
+ background-color: #d89747;
+}
+.contact-form button:active {
+ background-color: #975504;
+}
